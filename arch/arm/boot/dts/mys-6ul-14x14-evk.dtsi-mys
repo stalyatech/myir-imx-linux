@@ -352,7 +352,7 @@
 		display-timings {
 			native-mode = <&timing0>;
 
-			/*timing0: timing0 {
+			timing0: timing0 {
 				clock-frequency = <9200000>;
 				hactive = <480>;
 				vactive = <272>;
@@ -366,9 +366,9 @@
 				vsync-active = <0>;
 				de-active = <1>;
 				pixelclk-active = <0>;
-			};*/
+			};
 
-			timing0: timing0 {
+			/*timing0: timing0 {
 			clock-frequency = <33000000>;
 			hactive = <800>;
 			vactive = <480>;
@@ -383,7 +383,7 @@
 			vsync-active = <0>;
 			de-active = <1>;
 			pixelclk-active = <0>;
-			};
+			};*/
 		};
 	};
 };
